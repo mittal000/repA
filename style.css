@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#f0dd92 0%, #ebce5e 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line {
+    height: 6px;
+    background-color: burlywood;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 17px;
+}
+
+.menu {
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    margin-top: 0px;
+}
+
+.links {
+    float: left;
+    color: aqua;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: brown;
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+    text-shadow: 2px 2px gainsboro;
+
+}
+
+.article:hover {
+    color: chartreuse;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#writings a 
+{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#contact{
+background: firebrick;
+}
+#contact iframe
+{
+    width: 100%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: white;
+    text-shadow: none;
+}
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
